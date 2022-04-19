@@ -15,66 +15,78 @@
     <!-- NAVBAR -->
     <!-- FAIRE LES ANCRES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-        <a class="navbar-brand" href="#"> <img src="/img/Logo/logo_v5.png" class="img-fluid" style="max-width: 150px;" alt="logoFH"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">ACCUEIL</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                NOS PRODUITS
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Anti-âge</a></li>
-                <li><a class="dropdown-item" href="#">Massages</a></li>
-                <li><a class="dropdown-item" href="#">Gommages</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Promos du mois</a></li>
-                </ul>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                NOS ATELIERS
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Formules</a></li>
-                <li><a class="dropdown-item" href="#">Tarifs</a></li>
-                <li><a class="dropdown-item" href="#">Participer</a></li>
-                </ul>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                NOTRE HISTOIRE
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Histoire</a></li>
-                </ul>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                CONTACT
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Coordonnées</a></li>
-                <li><a class="dropdown-item" href="#">Nous trouver</a></li>
-                </ul>
-            </li> 
-            <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#"> <i class="fa-solid fa-circle-user"></i> MON COMPTE </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#"> <i class="fa-solid fa-basket-shopping"></i> MON PANIER</a>
-            </li>
-            </ul>
-            <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Rechercher" aria-label="Rechercher">
-            <button class="btn btn-outline-success" type="submit">Rechercher</button>
-            </form>
+        <div class="container-fluid ">
+            <!--navbar barre de recherche -->
+            <div class="row flex-fill">
+                <div class="col-12 ">
+                    <form class="d-flex justify-content-end">
+                        <input class="form-control me-2 " type="search" style="max-width: 600px;" placeholder="Rechercher" aria-label="Rechercher">
+                        <button class="btn btn-outline-success" type="submit">Rechercher</button>
+                    </form>
+                </div>
+            <!--navbar logo + liens -->
+            <div class="row  ">
+                <div class="col-4 d-flex ">
+                    <a class="navbar-brand" href="#"> <img src="/img/Logo/logo_v7.png" class="img-fluid" style="max-width: 150px;" alt="logoFH"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>               
+                    </button> 
+                </div>
+                <div class="col-8 d-flex flex-fill justify-content-end ">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">ACCUEIL</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            NOS PRODUITS
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Anti-âge</a></li>
+                            <li><a class="dropdown-item" href="#">Massages</a></li>
+                            <li><a class="dropdown-item" href="#">Gommages</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Promos du mois</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            NOS ATELIERS
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Formules</a></li>
+                            <li><a class="dropdown-item" href="#">Tarifs</a></li>
+                            <li><a class="dropdown-item" href="#">Participer</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            NOTRE HISTOIRE
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Histoire</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            CONTACT
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Coordonnées</a></li>
+                            <li><a class="dropdown-item" href="#">Nous trouver</a></li>
+                            </ul>
+                        </li> 
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#"> <i class="fa-solid fa-circle-user"></i> MON COMPTE </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#"> <i class="fa-solid fa-basket-shopping"></i> MON PANIER</a>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
     </nav>
     <!-- PRODUITS PHARES -->
@@ -113,7 +125,7 @@
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <img src="/img/carte3.jpg" class="img-fluid rounded-start" alt="carte3">
+                        <img src="/img/carte3.jpg" class="img-fluid rounded-end" alt="carte3">
                     </div>
                 </div>
                 </div>
@@ -121,15 +133,14 @@
         </div>
     </section>
     <!-- Nos chiffres clés -->
-    <!-- ICONES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
     <section class="container text-center">
         <p>Nos chiffres clés</p>
         <div class="row"> 
-            <div class="col"> +13%
+            <div class="col"> <i class="fa-solid fa-chart-line"></i> +13%
                 d'évolution de la 
                 croissance moyenne
                 ces 10 dernières années</div>
-            <div class="col">+40 ans d'existence  </div>
+            <div class="col"> <i class="fa-solid fa-cake-candles"></i> +40 ans d'existence  </div>
             <div class="col">
                 <div class="row">
                     <div class="col">80en 2005
@@ -139,7 +150,7 @@
                         millions 
                         euros</div>
                     </div>
-                    <div class="col">une dynamique 
+                    <div class="col"> <i class="fa-solid fa-chart-column"></i> une dynamique 
                         de croissance durable</div>
             </div>
         </div>
@@ -153,10 +164,6 @@
                     Pour préserver la santé de la peau.
                     Durablement.
                     frenchyderm</div>
-                
-                
-                
-                
                 </div>
             <div class="col">  
                 <div>Frenchy Healthy </div>
@@ -165,7 +172,6 @@
                     Pour accompagner la beauté
                     des femmes au cours du temps.
                     Etat Pur</div>
-                
                 </div>
             <div class="col"> 
                 <div>Frenchy Healthy </div>
