@@ -13,6 +13,13 @@ nav{
     color: #fff;
     background-color: #273C31;
 }
+#graph1, #graph2, #cake{
+font-size:50px;
+}
+
+span{
+    font-size: 30px;
+}
 
 footer{
     color: #fff;
