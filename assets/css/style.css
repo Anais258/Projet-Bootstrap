@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* navbar */
+nav{
+    background-color: #F5E4ED;
+    opacity: 50%;
+}
+/*&&&&&&&&&&&&&&&&&&&&&&&&&&&& ACCUEIL &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
+/* chiffres */
+.chiffres{
+    background-color: #273C31;
+}
+
+footer{
+    background-color: #273C31;
+}
+
+logoSmall{
+    width: 50%;
+}
