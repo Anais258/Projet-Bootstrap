@@ -4,19 +4,21 @@
 }
 /* navbar */
 nav{
-    background-color: #F5E4ED;
-    opacity: 50%;
+    background-color: #f5e4edd0;
+
 }
 /*&&&&&&&&&&&&&&&&&&&&&&&&&&&& ACCUEIL &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
 /* chiffres */
 .chiffres{
+    color: #fff;
     background-color: #273C31;
 }
 
 footer{
+    color: #fff;
     background-color: #273C31;
 }
 
-logoSmall{
-    width: 50%;
+.logoSmall{
+    width: 200px;
 }
