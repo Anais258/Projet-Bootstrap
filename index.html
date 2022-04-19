@@ -92,39 +92,43 @@
         <img src="/assets/img/mockup_accueil.png" class="img-fluid" alt="accueil">
     </div>
     <!-- PRODUITS PHARES (cartes) -->
-    <section class="container">
-        <div class="row lg-d-flex">
+    <section class="container lg-d-flex ">
+        <div class="row ">
+            <!-- carte 1 -->
             <div class="card mb-3" style="max-width: 540px;">
                 <div class="row g-0">
-                    <div class="col-md-8">
-                        <div class="col-md-4">
-                            <img src="/assets/img/carte3.jpg" class="img-fluid rounded-start" alt="carte3">
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Shampoing</h5>
+                    <div class="col-md-6">
+                        <img src="/assets/img/carte3.jpg" class="img-fluid rounded-start" alt="carte3">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card-body ">
+                            <h5 class="card-title"> Shampoing </h5>
                             <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe voluptatum ducimus eligendi a quos tempore. Saepe, mollitia perspiciatis! Assumenda, odit!</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="card mb-3">
+            <!-- carte 2 -->
+            <div class="card mb-3 ">
                 <img src="/assets/img/carte.jpg" class="card-img-top" style="max-width: 540px;" alt="carte">
-                <div class="card-body">
+                <div class="card-body ">
                 <h5 class="card-title">Lait Corps</h5>
                 <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore sed natus at asperiores porro iure! Modi nisi facere quisquam impedit.</p>
                 </div>
             </div>
+
             <div class="card"> 
-            <div class="card mb-3" style="max-width: 540px;">
-                <div class="row g-0">
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title">Crème de douche</h5>
-                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe voluptatum ducimus eligendi a quos tempore. Saepe, mollitia perspiciatis! Assumenda, odit!</p>
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-6">
+                            <div class="card-body ">
+                                <h5 class="card-title">Crème de douche</h5>
+                                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe voluptatum ducimus eligendi a quos tempore. Saepe, mollitia perspiciatis! Assumenda, odit!</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-md-4">
-                        <img src="/assets/img/carte3.jpg" class="img-fluid rounded-start" alt="carte3">
+                        <div class="col-md-6">
+                            <img src="/assets/img/carte3.jpg" class="img-fluid rounded-start" alt="carte3">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -133,27 +137,34 @@
     <!-- Nos chiffres clés -->
     <section class="container_fluid chiffres text-center p-4" >
         <h2> Nos chiffres clés </h2>
+        <!-- icone % -->
         <div class="row d-flex flex-column"> 
-            <div class="col">
-                <i class="fa-solid fa-chart-line chiffres"id="graph1"></i>
+            <div class="col p-3">
+                <i class="fa-solid fa-chart-line chiffres" id="graph1"></i>
             </div>
-        <div class="col ">  
+            <!-- % évolution  -->
+        <div class="col">  
             <span> +13% </span>d'évolution de la croissance moyenne ces 10 dernières années
         </div>
-        <div class="col"> <i class="fa-solid fa-cake-candles " id="cake"></i> </div>
-        <div class="col"> <span> +40 </span>  ans d'existence  </div>
-        <div class="col ">
+        <!-- icone anniv' -->
+        <div class="col pt-5"> <i class="fa-solid fa-cake-candles " id="cake"></i> </div>
+        <!-- chiffre anniv' -->
+        <div class="col p-2"> <span> +40 </span>  ans d'existence  </div>
+        <div class="col p-4">
             <div class="row ">
-                <div class="row "> 
-                    <div class="col "> 
-                        <i class="fa-solid fa-chart-column chiffres ps-4 "id="graph2"></i> 
+                <!-- icone croissance -->
+                    <div class="col p-2"> 
+                        <i class="fa-solid fa-chart-column chiffres"id="graph2"></i> 
                     </div> 
-                <div class="d-flex justify-content-center  ">
-                    <p><span> 80 </span> en 2005 millions euros</p>
-                    <p><span> 537 </span>en 2020 millions euros
-                </div>
-                <div class="col text-center"> Une dynamique de croissance durable. </div>
-            </div>   
+                    <!-- chiffres croissance -->
+                    <div class="d-flex justify-content-center">
+                        <p><span> 80 </span> en 2005 millions euros</p>
+                        <p><span> 527 </span>en 2020 millions euros</p>
+                    </div>   
+                    <!-- texte du dessous -->
+                    <div class="col text-center p-2"> 
+                        Une dynamique de croissance durable. 
+                    </div>
         </div>
     </section>
     <!-- Nos promotions du mois -->
@@ -165,7 +176,7 @@
                     <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 2"></button>
                     </div>
                     <div class="carousel-inner">
                     <div class="carousel-item active">
