@@ -11,9 +11,9 @@ nav{
 
 /*&&&&&&&&&&&&&& Anaïs PAGE PANIER - CONTACT &&&&&&&&&&&&&&& */
 
-.acceuilPanier{
-    object-fit: contain;
-}
+/* .accueilPanier{
+    object-fit: scale-down;
+} */
 
 .nav-panier {
     position: relative;
@@ -228,7 +228,7 @@ label.radio input:checked+span {
 
 /* image fond accueil */
 .bgAccueil{
-    object-fit: cover;
+    object-fit: contain;
 }
 
 /* chiffres */
@@ -248,6 +248,13 @@ p{
     padding: 0px 0px 0px 40px;
 }
 
+/* Promos carousel */
+
+.d-block {
+    object-fit: contain;
+}
+
+
 /* Footer */
 footer{
     color: #fff;
@@ -257,6 +264,12 @@ footer{
 .logo{
     width: 150px;
 }
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
 
 
 /* &&&&&&&&&&&&&&&&&& Elisa2  HISTOIRE &&&&&&&&&&&&&&&&&&&&&& */
@@ -290,6 +303,7 @@ body{
 
 
 /* &&&&&&&&&&&&&&&&&&&&&&&&& Elisa2 ATELIER &&&&&&&&&&&&&&&&&&&& */
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 body{
@@ -320,8 +334,7 @@ body{
     color: #fff;
     border-radius: 16px;
     border:none;
-}
-
-.button{
     margin-top:5%;
 }
+
+
