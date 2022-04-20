@@ -127,12 +127,13 @@ label.radio input:checked+span {
 
 .credit-inputs::placeholder {
     color: rgb(0, 0, 0);
-    font-size: 13px
+    font-size: 13px;
+    font-style: italic;
 }
 
 .credit-card-label {
     font-size: 9px;
-    font-weight: 300
+    font-weight: 300;
 }
 
 .form-control.credit-inputs:focus {
@@ -167,11 +168,12 @@ label.radio input:checked+span {
 /* bouton valider et suivant */
 .pay-button {
     background-color: #1e714f;
-    color: #ffffff;
     font-weight: bold;
     border: 2px solid #ffffff;
     font-size: 20px;
     border-radius: 50px;
+    text-decoration: none;
+    color: #ffffff;
 }
 
 .pay-button:hover {
@@ -213,5 +215,19 @@ label.radio input:checked+span {
     margin-right:80px;
 }
 
+/* FORMULAIRE */
 
+.form {
+    font-size: 14px;
+    padding-top: 5px;
+    display: flex;
+}
 
+.form label {
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.form input {
+    justify-content: center;
+}
