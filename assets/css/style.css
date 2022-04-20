@@ -5,8 +5,13 @@
 
 /* navbar */
 /***** Claire ***/
+
 nav{
     background-color: #f5e4edd0;
+}
+
+.acceuilPanier{
+    object-fit: cover;
 }
 
 .nav-panier {
@@ -30,7 +35,7 @@ nav{
     color: rgb(230, 230, 230);
     border-radius: 10px
 }
-
+acceuilContact
 #paiement {
     background: rgb(230, 230, 230);
     padding: 10px;
@@ -221,7 +226,7 @@ label.radio input:checked+span {
 /*&&&&&&&&&&&&&&&&&&&&&&&&&&&& ACCUEIL &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
 
 /* image fond accueil */
-bgAccueil{
+.bgAccueil{
     object-fit: cover;
 }
 
