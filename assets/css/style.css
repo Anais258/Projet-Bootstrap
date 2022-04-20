@@ -190,6 +190,7 @@ label.radio input:checked+span {
 .pay-button:hover {
     color: #fff;
     background-color: #155138;
+    border-color: #273C31;
 }
 
 .pay-button:focus {
@@ -233,6 +234,20 @@ label.radio input:checked+span {
 
 .form input {
     justify-content: center;
+}
+
+
+/* page user */
+
+.divider:after,.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+}
+
+.h-custom {
+    height: calc(100% - 73px);
 }
 
 /*&&&&&&&&&&&&&&&&&&&&&&&&&&&& Claire ACCUEIL &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
