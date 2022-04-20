@@ -102,11 +102,83 @@
     </fieldset>
         <input type=button name="submit" value="VALIDER" onClick="envoyé">
     
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11554.184839695508!2d-4.608638677151986!3d48.380228165022885!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x481695e7337e69c5%3A0x3d7509cc96879e27!2s39%20Rte%20de%20la%20Trinit%C3%A9%2C%2029280%20Plouzan%C3%A9!5e1!3m2!1sfr!2sfr!4v1650275183075!5m2!1sfr!2sfr" width="1104" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+<!-- formulaire contact par mail  -->
     
-    </table>
+<div id="contactMail" id="haut" class="container-fluid mt-5 p-3 rounded mr-2 h4"><span class="d-flex justify-content-center mb-4">Contactez-nous par mail :</span>
+    <div class="row">
+        <div class="form"><label for="lastname">Nom : </label></div></div>
+    <div class="row">
+            <div class="form"><input type="text" id="lastname" required="champs requis" placeholder="Doe"></div></div>
+    <div class="row">
+        <div class="form"><label for="firstname">Prénom :</label></div></div>             
+    <div class="row">
+            <div class="form"><input type="text" id="firstname" required="champs requis" placeholder="John"></div></div>
+    <div class="row">
+        <div class="form"><label for="email">Email :</label></div></div>
+    <div class="row">
+        <div class="form"><input type="email" id="email" required="champs requis" placeholder="Besançon"></div></div>
+    <div class="row">
+        <div class="form"><label for="text">Votre demande concerne :</label></div></div><div class="row">
+    <div class="form"><select class="form-select" aria-label="Default select example">
+        <option selected>Séléctionnez une option</option>
+        <option value="1">Nos produits</option>
+        <option value="2">Nos ateliers</option>
+        <option value="3">Une commande</option>
+        <option value="3">Votre compte</option>
+        <option value="3">Autre</option></select></div>
+    <div class="row">
+        <div class="form"><label for="commentaire">Votre commentaire : </label></div></div>
+    <div class="row">
+        <div class="form"><textarea></textarea></div></div>
+    <div class="row">
+        <div class="form my-5"><button class="btn btn-block btn-lg ml-2 pay-button" href="#paiement" type="button" data-bs-toggle="modal" data-bs-target="#modal">VALIDER</button></div></div>
+    </div>
+    </div>
+</div>
 
+<!-- Modal -->
 
+<div class="modal fade" id="modal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header">
+        <h5 class="modal-title" id="modalLabel">Merci pour votre message.<br>Nous allons vous répondre dès que possible.</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <!-- <div class="modal-body">message secondaire</div> -->
+        <!-- <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+        </div> -->
+    </div>
+    </div>
+</div>
+
+<!-- contact par tel -->
+
+<div id="contactTel" class="container-fluid justify-content-center mt-5 p-3 rounded">
+    <div class="row no-gutters">
+        <div class="d-flex flex-row justify-content-center h4"></i><span class="mb-4">Contactez-nous par téléphone :</span></div>
+    <div class="row">
+        <div class="d-flex flex-row justify-content-center h3 mt-4"><label for="tel">+336 82 29 09 34</label></div></div>
+</div>
+</div>
+
+<!-- ou nous trouver -->
+
+<div id="contactmap" class="container-fluid mt-5 p-3 rounded">
+    <div class="row no-gutters">
+        <div class="d-flex flex-row justify-content-center h4"></i><span class="mb-4">Où nous trouver ?</span></div></div>
+    <div class="row">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11554.184839695508!2d-4.608638677151986!3d48.380228165022885!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x481695e7337e69c5%3A0x3d7509cc96879e27!2s39%20Rte%20de%20la%20Trinit%C3%A9%2C%2029280%20Plouzan%C3%A9!5e1!3m2!1sfr!2sfr!4v1650275183075!5m2!1sfr!2sfr" width="1104" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+</div>
+
+<!-- BOUTON RETOUR EN HAUT -->
+
+<div class="text-center"><button><a href="#haut">HAUT DE LA PAGE</a></button></div>
+
+<script src="assets/js/bootstrap.min.js"></script>
 
 </form>
     <!-- BOUTON RETOUR EN HAUT -->
@@ -145,3 +217,7 @@
     </footer>
 </body>
 </html>
+
+
+
+<!-- offset-md-4 col-md-2 pt-3 -->
