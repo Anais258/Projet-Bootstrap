@@ -6,14 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="assets/css/style.css"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <script src="https://kit.fontawesome.com/2f4ac5594a.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <title>Atelier-Frenchy-Healthy</title>
+    <title> Frenchy Healthy - Payement</title>
 </head>
 <body>
-    <!-- NAVBAR -->
+    <!-- NAVBAR-->
     <nav class="navbar  navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid ">
             <!--navbar barre de recherche -->
@@ -47,7 +44,7 @@
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="/magasin.html">Produits</a></li>
                             <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="#proms">Promos du mois</a></li>
+                            <li><a class="dropdown-item" href="#proms" >Promos du mois</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
@@ -86,34 +83,51 @@
             </div>
         </div>
     </nav>
-    <div class="container">
-        <div class="row">
-            <div class="col-12 text-center">
-                <h1 class="title-atelier">Et si on apprenait ensemble...</h1>
-            </div>
-        </div>
-    </div>
-    <div class="col-12"> 
-            <p class="atelier">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
-            This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.  Text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    <!-- formulaire carte de crédit -->
+
+<div class="col-12">
+    <div id="paiement" class="container-fluid mt-5 p-3 rounded payment">
+        <div class="row no-gutters">
+                <div class="d-flex flex-row justify-content-center h4"></i><span class="mb-4">Paiement</span></div>
+        <div class="offset-2 col-8 offset-md-4 col-md-4">
+        <div class="d-flex align-items-center"><span>Informations carte de crédit</span></div><span class="type d-block mt-3 mb-1">Type de carte</span>
+            <label class="radio"><input type="radio" name="card" value="payment" checked> <span><img width="30" src="https://img.icons8.com/color/48/000000/mastercard.png" /></span> </label>
+            <label class="radio"><input type="radio" name="card" value="payment"> <span><img width="30" src="https://img.icons8.com/officel/48/000000/visa.png" /></span> </label>
+            <label class="radio"><input type="radio" name="card" value="payment"> <span><img width="30" src="https://img.icons8.com/officel/48/000000/paypal.png" /></span> </label>
             
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-md-6 img">
-                <img src="assets/img/essential-oils-gb5b6e6072_1920.jpg" class=" img-atelier1"> 
-            </div>
-            <div class="col-12 col-md-6 img">
-                <img src="assets/img/toner-g535bae3ea_1920.jpg" class="img-atelier2" >
-            </div>
-        </div> 
-    </div> 
-    <div class="row">
-        <div class="col-12 text-center">
-            <input class="button" type="button" value="Ajouter à mon panier">
+            <div><label class="credit-card-label">Titulaire de la carte</label><input type="text" class="form-control credit-inputs" placeholder="John Doe"></div>
+            <div><label class="credit-card-label">Numéro de carte</label><input type="text" class="form-control credit-inputs" placeholder="0000 0000 0000 0000"></div>
+            <div class="row">
+            <div class="col-md-6"><label class="credit-card-label">Date d'expiration</label><input type="text" class="form-control credit-inputs" placeholder="12/24"></div>
+            <div class="col-md-6"><label class="credit-card-label">CVV</label><input type="text" class="form-control credit-inputs" placeholder="342"></div>
         </div>
     </div>
-    <!-- Footer -->
+    
+    <div class="row">
+        <div class="col-12 text-center my-5"><button class="btn btn-block btn-lg ml-2 pay-button" type="button" data-bs-toggle="modal" data-bs-target="#modal">Valider</button></div>
+    </div>
+</div>
+</div>
+
+<!-- Modal -->
+
+<div class="modal fade" id="modal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header">
+        <h5 class="modal-title" id="modalLabel">Merci pour votre commande.<br>Vous allez recevoir un mail de confirmation.</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <!-- <div class="modal-body">message secondaire</div> -->
+        <!-- <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+        </div> -->
+    </div>
+    </div>
+</div>
+
+<!-- Footer -->
     <footer>
         <div class="container-fluid text-center ">
             <div class="row d-flex align-items-center">
@@ -145,7 +159,5 @@
             </div>
         </div>
     </footer>
-
-    <script src="assets/js/bootstrap.min.js"></script>
 </body>
 </html>

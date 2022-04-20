@@ -6,14 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="assets/css/style.css"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <script src="https://kit.fontawesome.com/2f4ac5594a.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <title>Atelier-Frenchy-Healthy</title>
+    <title>Frenchy Healthy - Livraison</title>
 </head>
 <body>
-    <!-- NAVBAR -->
     <nav class="navbar  navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid ">
             <!--navbar barre de recherche -->
@@ -47,7 +43,7 @@
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="/magasin.html">Produits</a></li>
                             <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="#proms">Promos du mois</a></li>
+                            <li><a class="dropdown-item" href="#proms" >Promos du mois</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
@@ -86,34 +82,32 @@
             </div>
         </div>
     </nav>
-    <div class="container">
+
+    <!-- adresse de livraison -->
+
+    <div id="livraison" class="container text-light mt-5 p-3 rounded mb-5">
+        <div class="row no-gutters">
+            <div class="col-12 mr-2 d-flex flex-row justify-content-center h4"></i><span class="mb-4">Adresse de livraison</span></div>
+        </div>
         <div class="row">
-            <div class="col-12 text-center">
-                <h1 class="title-atelier">Et si on apprenait ensemble...</h1>
-            </div>
+            <div class="col-12 text-center pt-3"><label for="address">N° et voie</label></div></div>
+        <div class="row">
+            <div class="col-12 text-center"><input type="text" aria-required="true" placeholder="5 rue Louis Pergaud"></div></div>
+        <div class="row">
+            <div class="col-12 text-center pt-3"><label for="postalCode">Code postal</label></div></div>
+        <div class="row">
+            <div class="col-12 text-center"><input type="text" aria-required="true" placeholder="25000"></div></div>
+        <div class="row">
+            <div class="col-12 text-center pt-3"><label for="country">Ville</label></div></div>
+        <div class="row">
+            <div class="col-12 text-center"><input type="text" aria-required="true" placeholder="Besançon"></div></div>
+        <div class="row">
+            <div class="col-12 text-center my-5"><a class="btn btn-block btn-lg ml-2 pay-button" href="/payement.html" target="_blank" type="button">Suivant</a></div>
         </div>
     </div>
-    <div class="col-12"> 
-            <p class="atelier">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
-            This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.  Text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-md-6 img">
-                <img src="assets/img/essential-oils-gb5b6e6072_1920.jpg" class=" img-atelier1"> 
-            </div>
-            <div class="col-12 col-md-6 img">
-                <img src="assets/img/toner-g535bae3ea_1920.jpg" class="img-atelier2" >
-            </div>
-        </div> 
-    </div> 
-    <div class="row">
-        <div class="col-12 text-center">
-            <input class="button" type="button" value="Ajouter à mon panier">
-        </div>
-    </div>
+
     <!-- Footer -->
+
     <footer>
         <div class="container-fluid text-center ">
             <div class="row d-flex align-items-center">
@@ -145,7 +139,6 @@
             </div>
         </div>
     </footer>
-
     <script src="assets/js/bootstrap.min.js"></script>
 </body>
 </html>

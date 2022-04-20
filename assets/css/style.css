@@ -320,8 +320,7 @@ body{
 
 
 /* &&&&&&&&&&&&&&&&&&&&&&&&& Elisa2 ATELIER &&&&&&&&&&&&&&&&&&&& */
-
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Montserrat:wght@100;200;400;500;700&family=Open+Sans&display=swap');
 
 body{
     font-family: 'Montserrat', sans-serif;
