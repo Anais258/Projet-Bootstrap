@@ -9,6 +9,12 @@ nav{
     background-color: #f5e4edd0;
 }
 
+/*&&&&&&&&&&&&&& Anaïs PAGE PANIER - CONTACT &&&&&&&&&&&&&&& */
+
+.acceuilPanier{
+    object-fit: contain;
+}
+
 .nav-panier {
     position: relative;
     display: flex;
@@ -30,7 +36,7 @@ nav{
     color: rgb(230, 230, 230);
     border-radius: 10px
 }
-
+acceuilContact
 #paiement {
     background: rgb(230, 230, 230);
     padding: 10px;
@@ -218,13 +224,13 @@ label.radio input:checked+span {
     margin-right:80px;
 }
 
-/*&&&&&&&&&&&&&&&&&&&&&&&&&&&& ACCUEIL &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
+/*&&&&&&&&&&&&&&&&&&&&&&&&&&&& Claire ACCUEIL &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
 
 /* image fond accueil */
-
-bgAccueil{
+.bgAccueil{
     object-fit: cover;
 }
+
 /* chiffres */
 .chiffres{
     color: #fff;
@@ -250,4 +256,72 @@ footer{
 
 .logo{
     width: 150px;
+}
+
+
+/* &&&&&&&&&&&&&&&&&& Elisa2  HISTOIRE &&&&&&&&&&&&&&&&&&&&&& */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.col-12.col-md-6.img{
+    margin-top :20px;
+}
+
+.atelier{
+    margin-right: 35px;
+    margin-left: 35px;
+}
+
+.img-atelier1{
+    width:100%;
+    height:100%;
+}
+
+.img-atelier2{
+    width:100%;
+    height:100%;
+}
+
+
+
+
+/* &&&&&&&&&&&&&&&&&&&&&&&&& Elisa2 ATELIER &&&&&&&&&&&&&&&&&&&& */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.col-12.col-md-6.img{
+    margin-top :20px;
+}
+
+.atelier{
+    margin-right: 35px;
+    margin-left: 35px;
+}
+
+.img-atelier1{
+    width:100%;
+    height:100%;
+}
+
+.img-atelier2{
+    width:100%;
+    height:100%;
+}
+
+.button{
+    background-color: #688B58;
+    color: #fff;
+    border-radius: 16px;
+    border:none;
+}
+
+.button{
+    margin-top:5%;
 }
