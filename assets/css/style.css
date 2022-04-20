@@ -221,10 +221,10 @@ label.radio input:checked+span {
 /*&&&&&&&&&&&&&&&&&&&&&&&&&&&& ACCUEIL &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
 
 /* image fond accueil */
-
 bgAccueil{
     object-fit: cover;
 }
+
 /* chiffres */
 .chiffres{
     color: #fff;
