@@ -9,7 +9,7 @@ nav{
     background-color: #f5e4edd0;
 }
 
-/*&&&&&&&&&&&&&& PAGE PANIER &&&&&&&&&&&&&&& */
+/*&&&&&&&&&&&&&& Anaïs PAGE PANIER - CONTACT &&&&&&&&&&&&&&& */
 
 .acceuilPanier{
     object-fit: contain;
@@ -224,7 +224,7 @@ label.radio input:checked+span {
     margin-right:80px;
 }
 
-/*&&&&&&&&&&&&&&&&&&&&&&&&&&&& ACCUEIL &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
+/*&&&&&&&&&&&&&&&&&&&&&&&&&&&& Claire ACCUEIL &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
 
 /* image fond accueil */
 .bgAccueil{
@@ -259,7 +259,7 @@ footer{
 }
 
 
-/* &&&&&&&&&&&&&&&&&& Elisa2  histoire &&&&&&&&&&&&&&&&&&&&&& */
+/* &&&&&&&&&&&&&&&&&& Elisa2  HISTOIRE &&&&&&&&&&&&&&&&&&&&&& */
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
@@ -289,7 +289,7 @@ body{
 
 
 
-/* &&&&&&&&&&&&&&&&&&&&&&&&& Elisa2 atelier &&&&&&&&&&&&&&&&&&&& */
+/* &&&&&&&&&&&&&&&&&&&&&&&&& Elisa2 ATELIER &&&&&&&&&&&&&&&&&&&& */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 body{
