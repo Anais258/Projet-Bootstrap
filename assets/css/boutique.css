@@ -9,7 +9,7 @@ font-family: 'Open Sans', sans-serif;
 
 .btn{
     background-color: #688B58;
-    border-color: #688B58
+    border-color: #688B58;
 }
 
 .top{
@@ -18,7 +18,7 @@ font-family: 'Open Sans', sans-serif;
     object-fit: cover;
     }
 
-.galerie {
+.galerie,.galerie2,.galerie3 {
     width: 300px; 
     height: 300px;
     object-fit: cover ;
@@ -29,9 +29,8 @@ font-family: 'Open Sans', sans-serif;
 }
 .promotion {
     position: absolute;
-    width:150px;
-    height:28px;
-    left: 200px;
+    width:180px;
+    left: 180px;
     transform: rotate(45deg);
     top: 30px;
     color: #273C31;
@@ -46,3 +45,41 @@ p{
 strong{
     font-weight: bold;
 }
+.accordion-button:focus{
+    color:#273C31;
+    box-shadow: #F5E4ED;
+} 
+/* .accordion-button::after{
+    width: 500px;
+    height: 25px;
+}  */
+.accordion-button:not(.collapsed) {
+    color: #273C31;
+    border-color: #F5E4ED;
+    background-color: #F5E4ED;
+}
+.accordion-item{
+    display: flex;
+    justify-content: center;
+
+} 
+strong{
+    margin-right: 3px;
+}
+.accordion-header{
+    color: #688B58;
+}
+.accordion-button:focus{
+    box-shadow: 0 0 0 0.25rem rgba(227, 184, 223, 0.25);
+
+}button>strong{
+    color: #688B58;
+    font-size: 20px;
+}
+.accordion-body{
+    font-size: 18px;
+}
+.accordion{
+    margin-top: 40px;
+}
+
