@@ -21,3 +21,34 @@ font-family: 'Open Sans', sans-serif;
     height: 300px;
     object-fit: cover ;
     }
+.contenant,.contenant2,.contenant3{
+    position: relative;
+    overflow: hidden;
+}
+.promotion {
+    position: absolute;
+    width:150px;
+    height:28px;
+    left: 120px;
+    transform: rotate(45deg);
+    top: 30px;
+    color: #273C31;
+    border: solid 1px;
+    background-color: #F5E4ED;
+    font-size: 20px;
+    font-weight: bold;
+}
+p{
+    font-size: 18px;
+}
+strong{
+    font-weight: bold;
+}
+   
+  
+    
+   
+    
+    
+   
+ 
