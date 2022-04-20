@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar */
+/***** Claire ***/
+nav{
+    background-color: #f5e4edd0;
+}
+
+.nav-panier {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: #273C31;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+.nav-panier .nav-link {
+    margin: 5px;
+    color: #273C31;
+}
+
+.nav-panier .nav-link.active {
+    background-color: #273C31;
+    color: rgb(230, 230, 230);
+    border-radius: 10px
+}
+
+#paiement {
+    background: rgb(230, 230, 230);
+    padding: 10px;
+    border-radius: 6px;
+    font-weight: bold
+}
+
+#paiement input {
+    padding: 10px;
+    border-radius: 6px;
+    border: 2px solid #273C31;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+#paiement label {
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 12px;
+}
+
+#paiement .type{
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 12px;
+}
+
+#livraison {
+    background: #273C31;
+    color: #ffffff;
+    padding: 10px;
+}
+
+#livraison input {
+    padding: 10px;
+    border: 2px solid #273C31;
+    background: #ffffff9d;
+    border-radius: 6px;
+
+}
+
+.product-details {
+    padding: 10px;
+}
+
+.d-flex {
+    text-align: center;
+
+}
+
+
+.p-about {
+    font-size: 12px
+}
+
+.table-shadow {
+    -webkit-box-shadow: 5px 5px 15px -2px rgba(0, 0, 0, 0.42);
+    box-shadow: 5px 5px 15px -2px rgba(0, 0, 0, 0.42)
+}
+
+.type {
+    font-weight: 400;
+    font-size: 10px
+}
+
+label.radio {
+    cursor: pointer
+}
+
+label.radio input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    pointer-events: none
+}
+
+label.radio span {
+    padding: 1px 12px;
+    border: 2px solid #ada9a9;
+    display: inline-block;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300
+}
+
+label.radio input:checked+span {
+    border-color: #fff;
+    background-color: rgba(255, 255, 255, 0.537);
+    color: rgb(214, 243, 237)
+}
+
+.credit-inputs {
+    background: rgba(255, 255, 255, 0.196);
+    color: #fff !important;
+    border-color: rgba(255, 255, 255, 0.56)
+}
+
+.credit-inputs::placeholder {
+    color: rgb(0, 0, 0);
+    font-size: 13px
+}
+
+.credit-card-label {
+    font-size: 9px;
+    font-weight: 300
+}
+
+.form-control.credit-inputs:focus {
+    background: rgba(255, 255, 255, 0.155);
+    border: rgba(255, 255, 255, 0.155);
+}
+
+
+.information {
+    margin-bottom: 5px;
+}
+
+.items {
+    -webkit-box-shadow: 5px 5px 4px -1px rgba(0, 0, 0, 0.25);
+    box-shadow: 5px 5px 4px -1px rgba(0, 0, 0, 0.08)
+}
+
+.spec {
+    font-size: 14px
+}
+
+
+.size span {
+    font-size: 14px
+}
+
+.color span {
+    font-size: 14px
+}
+
+
+/* bouton valider et suivant */
+.pay-button {
+    background-color: #1e714f;
+    color: #ffffff;
+    font-weight: bold;
+    border: 2px solid #ffffff;
+    font-size: 20px;
+    border-radius: 50px;
+}
+
+.pay-button:hover {
+    color: #fff;
+    background-color: #155138;
+}
+
+.pay-button:focus {
+    color: #fff;
+    box-shadow: none
+}
+
+.text-grey {
+    color: #a39f9f
+}
+
+.qty i {
+    font-size: 14px
+} 
+
+#total {
+    background: rgb(225, 153, 204);
+}
+
+/* FORME TABLEAU PAIEMENT */
+
+#ccNum,#ccName {
+    width: 180px;
+}
+
+#ccExp,#ccCsc {
+    width: 84px;
+}
+
+#ccExp {
+    margin-left:80px;
+}
+#ccCsc {
+    margin-right:80px;
+}
+
+/*&&&&&&&&&&&&&&&&&&&&&&&&&&&& ACCUEIL &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
+
+/* image fond accueil */
+
+bgAccueil{
+    object-fit: cover;
+}
+/* chiffres */
+.chiffres{
+    color: #fff;
+    background-color: #273C31;
+}
+#graph1, #graph2, #cake{
+font-size:50px;
+}
+
+span{
+    font-size: 30px;
+}
+
+p{
+    padding: 0px 0px 0px 40px;
+}
+
+/* Footer */
+footer{
+    color: #fff;
+    background-color: #273C31;
+}
+
+.logo{
+    width: 150px;
+}
