@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+/* navbar */
+/***** Claire ***/
+nav{
+    background-color: #f5e4edd0;
+}
 
 .nav-panier {
     position: relative;
@@ -213,5 +218,30 @@ label.radio input:checked+span {
     margin-right:80px;
 }
 
+/*&&&&&&&&&&&&&&&&&&&&&&&&&&&& ACCUEIL &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
+/* chiffres */
+.chiffres{
+    color: #fff;
+    background-color: #273C31;
+}
+#graph1, #graph2, #cake{
+font-size:50px;
+}
 
+span{
+    font-size: 30px;
+}
 
+p{
+    padding: 0px 0px 0px 40px;
+}
+
+/* Footer */
+footer{
+    color: #fff;
+    background-color: #273C31;
+}
+
+.logo{
+    width: 150px;
+}
