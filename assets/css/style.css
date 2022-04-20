@@ -181,7 +181,7 @@ label.radio input:checked+span {
     background-color: #1e714f;
     font-weight: bold;
     border: 2px solid #ffffff;
-    font-size: 20px;
+    font-size: 18px;
     border-radius: 50px;
     text-decoration: none;
     color: #ffffff;
@@ -203,7 +203,7 @@ label.radio input:checked+span {
 }
 
 .qty i {
-    font-size: 14px
+    font-size: 13px
 } 
 
 #total {
@@ -267,7 +267,7 @@ font-size:50px;
 }
 
 span{
-    font-size: 30px;
+    font-size: 20px;
 }
 
 p{
