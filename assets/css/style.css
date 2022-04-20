@@ -236,6 +236,12 @@ label.radio input:checked+span {
     justify-content: center;
 }
 
+/* map */
+
+#contactmap iframe {
+    max-width:40vw;
+}
+
 
 /* page user */
 
