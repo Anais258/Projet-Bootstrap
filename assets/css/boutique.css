@@ -26,6 +26,7 @@ font-family: 'Open Sans', sans-serif;
 .contenant,.contenant2,.contenant3{
     position: relative;
     overflow: hidden;
+    
 }
 .promotion {
     position: absolute;
@@ -63,7 +64,7 @@ strong{
     justify-content: center;
 
 } 
-strong{
+.strong{
     margin-right: 3px;
 }
 .accordion-header{
