@@ -282,6 +282,10 @@ p{
 
 /* Promos carousel */
 
+#proms{
+    font-weight: bold ;
+}
+
 .d-block {
     object-fit: contain;
 }
